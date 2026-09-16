@@ -25,9 +25,8 @@ SECRET_KEY = 'django-insecure-tbna#=*xuaex59l%b(grrmuqhjcavt(()1lj)xc5mty%ta*(cb
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-# ALLOWED_HOSTS = ['*']
-# CSRF_TRUSTED_ORIGINS = "https://github.com/piyush7crazy/expense.git"
-
+ALLOWED_HOSTS = ['*']
+CSRF_TRUSTED_ORIGINS = ['https://expense-1-7aeu.onrender.com']
 
 # Application definition
 
